@@ -1,0 +1,1701 @@
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+body {
+  color: inherit;
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 25, 25);
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px;
+  min-height: 100%;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #191919;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 112px;
+  }
+}
+
+.fWhSUv {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+:selection {
+  background: rgb(207, 207, 206);
+  color: rgb(25, 25, 25);
+  text-shadow: none;
+}
+
+h1 {
+  font-weight: normal;
+  text-rendering: optimizespeed;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px 0px 20px;
+}
+
+.jfDCYB {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  margin: 0px 0px 35px;
+  width: 366px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+}
+
+p {
+  margin: 0px 0px 20px;
+}
+
+.cfbhxT {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 24px;
+}
+
+.dTTneq {
+  width: 100%;
+  max-width: 366px;
+}
+
+@media (min-width: 1920px) {
+  .dTTneq {
+    max-width: 432px;
+  }
+}
+
+/* *********************************************************** */
+/* *********************************************************** */
+
+
+
+
+
+
+
+
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gUSzFV {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: [first] 0px [second] auto;
+  grid-template-rows: [first] 52px [second] auto [third] 52px;
+  position: relative;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.aNntR {
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(61, 61, 60);
+  display: flex;
+  grid-column: second;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding: 8px 24px;
+}
+
+.dnxiGH {
+  flex-direction: column;
+  max-width: 256px;
+  justify-self: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-area: second;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+@media (min-width: 720px) {
+  .dnxiGH {
+    max-width: 542px;
+  }
+}
+
+
+.bwgtwM {
+  margin: 0px 8px 0px 0px;
+  font-size: 14px;
+}
+
+.bJLdFb {
+  display: inline-flex;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  gap: 16px;
+  background-color: transparent;
+  min-width: 64px;
+  max-width: 100%;
+  width: 100%;
+}
+
+@media (min-width: 720px) {
+  .bJLdFb {
+    gap: 8px;
+  }
+}
+
+@media (min-width: 360px) {
+  .bJLdFb {
+    width: auto;
+  }
+}
+
+@media (min-width: 720px) {
+  .dnxiGH>* {
+    max-width: 256px;
+  }
+}
+
+.fwwXdp {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 80px;
+}
+
+h2 {
+  font-weight: normal;
+  text-rendering: optimizespeed;
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px 0px 20px;
+}
+
+.fZkklZ {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgb(94, 94, 94);
+  margin-bottom: 24px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.ivhwfT {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.duErPZ {
+  position: relative;
+  background-color: rgb(194, 194, 193);
+  height: 1px;
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.jVmqcp {
+  line-height: 0;
+  position: relative;
+}
+
+.dmMPQA {
+  padding: 16px 0px 0px 24px;
+  grid-area: third / first;
+}
+
+@media (min-width: 360px) {
+  .dmMPQA {
+    grid-row: first;
+  }
+}
+
+
+
+.hZiXbG {
+  background: none;
+  border: none;
+  padding: 0px;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.hZiXbG:hover {
+  color: rgb(160, 160, 160);
+}
+
+a {
+  background: rgba(0, 0, 0, 0);
+  color: inherit;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.cdXYNd:hover {
+  opacity: 0.8;
+}
+
+.hbuBFL {
+  line-height: 0;
+  text-decoration: none;
+}
+
+.jfKKSA {
+  display: inline-flex;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  gap: 16px;
+  background-color: transparent;
+  min-width: 140px;
+  max-width: 100%;
+  width: 100%;
+}
+
+@media (min-width: 720px) {
+  .jfKKSA {
+    gap: 8px;
+  }
+}
+
+@media (min-width: 360px) {
+  .jfKKSA {
+    width: auto;
+  }
+}
+
+.ftnmuJ {
+  background-image: url("../public/assets/images/google.png");
+  background-repeat: no-repeat;
+  background-position: 10px 50%, 0px 0px;
+  border-color: rgb(194, 194, 193);
+  color: rgb(94, 94, 94);
+  margin-bottom: 15px;
+}
+
+.hKvEgf {
+  background-image: url("../public/assets/images/microsoft.png");
+  background-repeat: no-repeat;
+  background-position: 10px 50%, 0px 0px;
+  border-color: rgb(194, 194, 193);
+  color: rgb(94, 94, 94);
+  margin-bottom: 15px;
+}
+
+.hKvEgf:last-child {
+  margin-bottom: 0px;
+}
+
+.gupdyu {
+  background-color: rgb(255, 255, 255);
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  padding: 0px 15px;
+  position: relative;
+  top: -0.5em;
+}
+
+.ikAZaU {
+  display: flex;
+}
+
+.cBqXF {
+  appearance: none;
+  margin: 0px;
+  border: none;
+  max-width: 100%;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  min-height: 32px;
+  background-color: rgb(240, 240, 240);
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+}
+
+.cBqXF:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.cBqXF:hover {
+  text-decoration: none;
+}
+
+.gWxfeL {
+  appearance: none;
+  margin: 0px;
+  border: none;
+  max-width: 100%;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  min-height: 32px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+}
+
+.gWxfeL:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.gWxfeL:hover {
+  text-decoration: none;
+}
+
+.hxVXWp {
+  margin-right: 8px;
+  line-height: 0;
+}
+
+.bfnwlE {
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.bfnwlE:hover {
+  color: rgb(160, 160, 160);
+}
+
+.jClUTf {
+  line-height: 0;
+  margin-left: 4px;
+}
+
+.dDgngr {
+  display: flex;
+}
+
+.gdNQSK:hover {
+  opacity: 0.8;
+}
+
+.daWfLx {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.bcYHMS {
+  color: rgb(25, 25, 25);
+  line-height: 2.4;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 6px 23px;
+}
+
+.daWfLx:hover {
+  color: rgb(94, 94, 94);
+}
+
+.bmXElW {
+  margin-left: 11.21px !important;
+  overflow: hidden;
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-ApUB7.style-ApUB7 {
+  display: none;
+}
+
+/***************************************** custom css *****************************************/
+/***************************************** custom css *****************************************/
+/***************************************** custom css *****************************************/
+.d-grid {
+  height: 100vh;
+  display: flex;
+  background-color: #191919;
+}
+
+.grid-1 {
+  flex: 872px;
+}
+
+.grid-2 {
+  flex: 1064px;
+  margin-left: -17px;
+  overflow: auto;
+}
+
+
+
+.iVeRCb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(25, 25, 25, 0.12) 0px 2px 5px 0.5px;
+  padding: 8px 0px;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  transform: scale(0.85);
+  transform-origin: left bottom;
+  will-change: transform, opacity;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 150ms ease-in 0s, opacity 150ms ease-in 0s, visibility 150ms ease-in 0s;
+  top: 2rem;
+}
+
+.cEMsbE {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(25, 25, 25, 0.12) 0px 2px 5px 0.5px;
+  padding: 8px 0px;
+  position: absolute;
+  z-index: 1;
+  transform-origin: left bottom;
+  will-change: transform, opacity;
+  transition: transform 150ms ease-in 0s, opacity 150ms ease-in 0s, visibility 150ms ease-in 0s;
+  top: 2rem;
+  pointer-events: initial;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.cdXYNd {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgb(25, 25, 25);
+  transition: background-color 0.2s ease-out 0s, border-color, color, opacity;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(25, 25, 25);
+  border-image: initial;
+}
+
+.eUclur {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(25, 25, 25);
+  transition: background-color 0.2s ease-out 0s, border-color, color, opacity;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(25, 25, 25);
+  border-image: initial;
+}
+
+.gdNQSK {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease-out 0s, border-color, color, opacity;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: rgb(25, 25, 25);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(25, 25, 25);
+  border-image: initial;
+}
+
+/* sign in form */
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Italic-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin.ttf") format("truetype");
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-a.ttf") format("truetype");
+  unicode-range: U+0100-017F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-b.ttf") format("truetype");
+  unicode-range: U+0180-024F;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-latin-extended-additional.ttf") format("truetype");
+  unicode-range: U+1E00-1EFF;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-rest.ttf") format("truetype");
+  unicode-range: U+0259-03C0, U+2000-FB02;
+}
+
+@font-face {
+  font-family: "apercu-pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.woff2") format("woff2"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.woff") format("woff"), url("https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.ttf") format("truetype");
+  unicode-range: U+0000-00A0, U+00A2-00A9, U+00AC-00AE, U+00B0-00B7, U+00B9-00BA, U+00BC-00BE, U+00D7, U+00F7, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-21BB, U+2212, U+2215, U+F8FF, U+FEFF, U+FFFD;
+}
+
+body {
+  color: inherit;
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 25, 25);
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px;
+  min-height: 100%;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 112px;
+  }
+}
+
+.dnxiGH {
+  flex-direction: column;
+  max-width: 256px;
+  justify-self: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-area: second;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+@media (min-width: 720px) {
+  .dnxiGH {
+    max-width: 542px;
+  }
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+:selection {
+  background: rgb(207, 207, 206);
+  color: rgb(25, 25, 25);
+  text-shadow: none;
+}
+
+@media (min-width: 720px) {
+  .dnxiGH>* {
+    max-width: 256px;
+  }
+}
+
+.fwwXdp {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 80px;
+}
+
+h2 {
+  font-weight: normal;
+  text-rendering: optimizespeed;
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px 0px 20px;
+}
+
+.fZkklZ {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgb(94, 94, 94);
+  margin-bottom: 24px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.kRDunh {
+  width: 100%;
+}
+
+a {
+  background: rgba(0, 0, 0, 0);
+  color: inherit;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.hbuBFL {
+  line-height: 0;
+  text-decoration: none;
+}
+
+:focus:not(.focus-visible) {
+  outline: none;
+}
+
+.dDgngr {
+  display: flex;
+}
+
+.bmXElW {
+  margin-left: 10.21px;
+  overflow: hidden;
+}
+
+.auth-footer {
+  display: none;
+}
+
+.o-form-button-bar {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .o-form-button-bar {
+    max-width: 100%;
+  }
+}
+
+.okta-form-title {
+  display: none;
+}
+
+.hbxMNP {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(25, 25, 25);
+}
+
+.iovUGO {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 16px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.mt-25 {
+  margin-top: 25px;
+
+}
+
+.ixkyal {
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 8px;
+}
+
+.button-primary {
+  background-color: rgb(25, 25, 25);
+  border-radius: 3px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  height: 40px;
+  line-height: 1.4;
+  padding: 0px;
+  width: 100%;
+  appearance: none;
+}
+
+@media screen and (min-width: 600px) {
+  .button-primary {
+    max-width: 230px;
+  }
+}
+
+#okta-sign-in.auth-container .button-primary {
+  background: #191919;
+}
+
+.o-form-fieldset {
+  margin-bottom: 15px;
+}
+
+.required-fields-label {
+  display: none;
+}
+
+.dtRSVL {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  appearance: none;
+  box-shadow: rgb(207, 207, 206) 0px 0px 0px 1px inset;
+  border-radius: 3px;
+  transition: background-color 0.15s ease 0s;
+}
+
+.dtRSVL:checked {
+  background-color: rgb(25, 25, 25);
+}
+
+.iovUGO a {
+  text-decoration: underline;
+  color: rgb(25, 25, 25);
+}
+
+.kgbfwB {
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  line-height: 32px;
+  margin: 0px;
+}
+
+.cXVBDv {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 200ms ease-in 0s;
+}
+
+p {
+  margin: 0px 0px 20px;
+}
+
+.input-margin {
+  margin: 0px 3px 0px 5px;
+}
+
+.jUtzFT {
+  font-size: 14px;
+  margin: 0px;
+  color: inherit;
+}
+
+.OyGzb {
+  transition: all 0.3s ease-out 0s;
+  transform: rotateX(180deg);
+}
+
+.jqwktG {
+  transition: all 0.3s ease-out 0s;
+  transform: rotateX(0deg);
+}
+
+.bOvCOF:checked {
+  background-color: rgb(25, 25, 25);
+}
+
+.bOvCOF:focus {
+  outline: none;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px, rgba(38, 38, 39, 0.4) 0px 0px 0px 3px;
+}
+
+.bOvCOF {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  appearance: none;
+  box-shadow: rgb(25, 25, 25) 0px 0px 0px 1px inset;
+  border-radius: 3px;
+  transition: background-color 0.15s ease 0s;
+}
+
+.bOvCOF:checked::before {
+  content: "";
+  color: rgb(255, 255, 255);
+  background: url(../public/assets/images/check-white.svg) 50% 4px no-repeat;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.hmDPMZ {
+  overflow: auto;
+}
+
+.o-form-input-name-email {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid rgb(194, 194, 193);
+  border-radius: 3px;
+}
+
+.okta-form-input-field:hover {
+  border-color: rgb(127, 127, 127);
+}
+
+.o-form-input-name-password {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid rgb(194, 194, 193);
+  border-radius: 3px;
+}
+
+.o-form-input-name-password {
+  position: relative;
+}
+
+.default-schema {
+  display: none;
+}
+
+.subschema-unsatisfied p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 8px 0px 6px 20px;
+  position: relative;
+}
+
+.subschema-unsatisfied p {
+  color: rgb(193, 59, 47);
+}
+
+.kgbfwB svg {
+  margin: 0px 8px;
+}
+
+.dEXZxc {
+  font-size: 14px;
+  margin: 0px;
+  color: rgb(127, 127, 127);
+}
+
+.o-form-has-errors .okta-form-input-error {
+  display: inherit;
+}
+
+.okta-form-input-error span::before {
+  content: "";
+  background: url(../public/assets/images/warning.svg) 50% center repeat;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+}
+
+.okta-form-input-error {
+  color: rgb(193, 59, 47);
+  display: none;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 8px 0px 6px 20px;
+  position: relative;
+}
+
+.o-form-input-name-email input {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+}
+
+.o-form-input-name-password input {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+}
+
+.o-form-input-name-password input {
+  padding-right: 35px;
+}
+
+.o-form-input-password-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  outline: inherit;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+}
+
+.subschema-unsatisfied p span::before,
+.subschema-satisfied p span::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0px;
+}
+
+.subschema-unsatisfied p span::before {
+  background: url("https://www.typeform.com/static/signup-page/warning.svg") 50% center repeat;
+}
+
+.jHYAji {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.bFIJrf {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px 0px 12px;
+}
+
+.o-form-input-eyeicon {
+  right: 5px;
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  padding: 6px 8px;
+  opacity: 0.175;
+  cursor: pointer;
+  font-size: 0px;
+  user-select: none;
+}
+
+.o-form-input-eyeicon-show:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 16c-.8125-.8125 1.1875-4 0-4-2.1875 0-4 1.8125-4 4s1.8125 4 4 4 4-1.8125 4-4c0-1-3.375.8125-4 0Zm0-10C5.625 6 0 14.8125 0 16.1875 0 17.625 5.625 26 16 26s16-8.8125 16-10S26.375 6 16 6Zm0 16c-3.375 0-6-2.625-6-6s2.625-6 6-6 6 2.625 6 6-2.625 6-6 6Zm0 0'/%3E%3C/svg%3E");
+}
+
+.o-form-input-eyeicon-hide {
+  display: none;
+}
+
+.o-form-input-eyeicon-hide:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M27.375 21.813 22 16.375V16c0-3.375-2.625-6-6-6h-.375L12 6.375C13.375 6.187 14.625 6 16 6c10.375 0 16 8.813 16 10 0 .625-1.625 3.375-4.625 5.813ZM20 25.625c-1.375.188-2.625.375-4 .375-10.375 0-16-8.375-16-9.813 0-.812 1.625-3.562 4.625-6L10 15.625V16c0 3.375 2.625 6 6 6h.375ZM6.375 4 28 25.625 25.625 28 4 6.375Zm0 0'/%3E%3C/svg%3E");
+}
+
+.suRJf {
+  color: rgb(25, 25, 25);
+  line-height: 20px;
+  margin: 0px;
+}
+
+.cloxAA {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+}
+
+.cloxAA:before {
+  content: " ";
+}
+
+.cloxAA:hover {
+  text-decoration: underline;
+}
+
+.lcIIfk {
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.ldYTNE {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  outline: 0px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(194, 194, 193);
+}
+
+.ldYTNE:checked:enabled {
+  background-color: rgb(255, 255, 255);
+  border: 6px solid rgb(25, 25, 25);
+}
+
+.kHWehz {
+  margin-left: 12px;
+}
+
+.eIWats {
+  font-size: 14px;
+  color: inherit;
+  margin: 0px 16px 0px 0px;
+  padding-top: 2px;
+}
+
+.kORYub {
+  font-size: 14px;
+  color: inherit;
+  margin: 0px;
+  padding-top: 2px;
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#okta-sign-in.style-wcP56 {
+  display: block;
+}
+
+.btn-abs {
+  position: absolute;
+  top: 30%;
+  right: 11%;
+}
+
+.cXVBDv {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 200ms ease-in 0s;
+}
+
+.SEjbG {
+  max-height: 306px;
+  overflow: hidden;
+  transition: max-height 200ms ease-in 0s;
+}
+
+
+@media (max-width:1024px) {
+  .grid-1 {
+    display: none !important;
+  }
+
+  body {
+    background-color: transparent;
+  }
+}
